@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Holly.CO/static/css/main.e12f2552.css",
+    "main.js": "/Holly.CO/static/js/main.dcc6aabb.js",
+    "static/js/453.7bc1db95.chunk.js": "/Holly.CO/static/js/453.7bc1db95.chunk.js",
+    "static/media/logo.png": "/Holly.CO/static/media/logo.ee86317294f8fa70d594.png",
+    "index.html": "/Holly.CO/index.html",
+    "main.e12f2552.css.map": "/Holly.CO/static/css/main.e12f2552.css.map",
+    "main.dcc6aabb.js.map": "/Holly.CO/static/js/main.dcc6aabb.js.map",
+    "453.7bc1db95.chunk.js.map": "/Holly.CO/static/js/453.7bc1db95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e12f2552.css",
+    "static/js/main.dcc6aabb.js"
+  ]
+}

@@ -31,6 +31,10 @@ const Header = () => {
           </div>
           <nav className={`navbar ${isMobileMenuOpen ? 'open' : ''}`}>
             <ul>
+            {/* <li><Link to="/Art">Art</Link></li> */}
+
+            <li><Link to="/Portfolio">Portfolio</Link></li>
+
               <li><Link to="/Contact">Contacts</Link></li>
             </ul>
           </nav>

@@ -18,6 +18,8 @@
 .Section1 {
   display: flex; /* Use flexbox */
   margin: 0 auto;
+  text-align: center;
+margin-top: -100px !important;
 }
 
 .P1 {
@@ -30,13 +32,13 @@
   left: 0;
   top: 0;
   height: 100%; /* Set height to 100% */
-  width: 30vw;
+  width: 33.5vw;
 }
 
 @media (min-width: 769px) {
   .Section1 {
     display: flex; 
-    max-width: 1500px;
+    max-width: 1100px;
     margin: 0 auto;
   }
   .P1{
@@ -67,12 +69,17 @@
 
   .Holly1 {
     max-width: 300px;
-    margin-top: 50px; /* Adjusted margin */
+    margin-top: 100px; /* Adjusted margin */
   }
 
-  .P1 {
+  .P2 {
     margin-left: 0; /* Reset margin */
     margin-top: 20px; /* Adjusted margin */
+    max-width: 330px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 
   }
 }

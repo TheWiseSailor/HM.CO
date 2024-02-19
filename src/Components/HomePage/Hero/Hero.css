@@ -1,25 +1,27 @@
-.HomePagePrimary{
+.HomePagePrimary {
   background-color: #C8DBD7;
-  margin-top: -22px;
- height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row; /* Changed from column to row */
+  align-items: center;
 }
 
-/* HERO 1 / P1*/
-
-.Hero1{
-  text-align: center;
-}
-.P1{
-  text-align: center;
-}
-/* HOLLY IMAGE*/
-.Holly1{
+/* HOLLY IMAGE */
+.Holly1 {
   min-width: 25vw;
   max-height: 50vh;
   position: relative;
-  margin-left: 200px;
-  margin-top: 50px;
+  margin: 0 auto;
   border-radius: 50px;
+}
+
+.Section1 {
+  display: flex; /* Use flexbox */
+  margin: 0 auto;
+}
+
+.P1 {
+  margin-top: 200px;
 }
 
 .LeftBackground {
@@ -27,29 +29,50 @@
   position: absolute;
   left: 0;
   top: 0;
-  height: 107.2vh;
+  height: 100%; /* Set height to 100% */
   width: 30vw;
 }
 
+@media (min-width: 769px) {
+  .Section1 {
+    display: flex; 
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .P1{
+    padding-left: 150px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .P2{
+    display: none;
+  }
+}
+
+/* P2 MOBILE CONFIG */
+
+@media (max-width: 1244px) {
+  .P1 {display: none;}
+}
 @media (max-width: 767px) {
   .LeftBackground {
-   display: none;
+    display: none;
   }
 
   /* HERO AND P1 */
-  .Hero1,
-  .P1 {
-    display: inline-block;
-    width: 50%;
-    text-align: center;
-    margin: 0;
-    vertical-align: top;
+  .HomePagePrimary {
+    flex-direction: column;
+    align-items: center;
   }
 
   .Holly1 {
-
     max-width: 300px;
+    margin-top: 50px; /* Adjusted margin */
+  }
 
- margin: 0 auto !important;
+  .P1 {
+    margin-left: 0; /* Reset margin */
+    margin-top: 20px; /* Adjusted margin */
+
   }
 }

@@ -1,6 +1,6 @@
 // HomeRender.js
 import React from 'react';
-import HomePage from './HomePage/HomePage';
+import HomePage from './HomePage/Hero/Hero';
 
 const HomeRender = () => {
   return (

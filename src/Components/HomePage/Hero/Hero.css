@@ -1,0 +1,55 @@
+.HomePagePrimary{
+  background-color: #C8DBD7;
+  margin-top: -22px;
+ height: 100vh;
+}
+
+/* HERO 1 / P1*/
+
+.Hero1{
+  text-align: center;
+}
+.P1{
+  text-align: center;
+}
+/* HOLLY IMAGE*/
+.Holly1{
+  min-width: 25vw;
+  max-height: 50vh;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+
+.LeftBackground {
+  background-color: #F0DED0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 107.2vh;
+  width: 30vw;
+}
+
+@media (max-width: 767px) {
+  .LeftBackground {
+   display: none;
+  }
+
+  /* HERO AND P1 */
+  .Hero1,
+  .P1 {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    vertical-align: top;
+  }
+
+  .Holly1 {
+
+    max-width: 300px;
+
+ margin: 0 auto !important;
+  }
+}

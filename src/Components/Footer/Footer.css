@@ -7,3 +7,8 @@ font-size: 20px;
   padding: 1px;
   text-align: center;
 }
+
+.footer.contact {
+  background-color: #5E5946; /* Change background color to black when contact page is active */
+  color: white; /* Change text color to white when contact page is active */
+}

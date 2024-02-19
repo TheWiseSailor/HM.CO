@@ -1,12 +1,22 @@
 // Footer.js
-import React from 'react';
-import './Footer.css'
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import './Footer.css';
+
 const Footer = () => {
+  const [isContactClicked, setIsContactClicked] = useState(false);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsContactClicked(location.pathname === '/Contact');
+  }, [location.pathname]);
+
   return (
-    <footer>
-      <p>Footer content goes here</p>
+    <footer className={`footer ${isContactClicked ? 'contact' : ''}`}>
+      <p className='ft'>Holly.CO &copy; All rights reserved.</p>
     </footer>
   );
-}
+};
 
 export default Footer;

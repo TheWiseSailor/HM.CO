@@ -5,6 +5,10 @@
   position: relative;
   z-index: 1000;
 }
+.HeaderPrimary.contact {
+  background-color: #5E5946; 
+  color: white; 
+}
 
 .header {
   margin: 0 auto;
@@ -31,8 +35,8 @@
 }
 
 .logo {
-  font-size: 24px;
-  max-width: 120px;
+
+  max-width: 150px;
   font-weight: bold;
   color: #ffe9e9;
   text-decoration: none;

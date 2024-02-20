@@ -19,6 +19,7 @@ padding: 70px;
 }
 .profile-picture {
   max-width: 400px; 
+  border-radius: 30px;
   height: auto;
 }
 

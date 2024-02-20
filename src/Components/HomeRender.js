@@ -1,11 +1,13 @@
 // HomeRender.js
 import React from 'react';
-import HomePage from './HomePage/Hero/Hero';
+import Hero from './HomePage/Hero/Hero';
+import AboutMe from './HomePage/AboutMe/AboutMe';
 
 const HomeRender = () => {
   return (
     <div>
-      <HomePage />
+      <Hero />
+      <AboutMe />
     </div>
   );
 }

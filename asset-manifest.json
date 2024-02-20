@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Holly.CO/static/css/main.5c67b99e.css",
-    "main.js": "/Holly.CO/static/js/main.1fbc9f55.js",
+    "main.js": "/Holly.CO/static/js/main.acf9db39.js",
     "static/js/453.7bc1db95.chunk.js": "/Holly.CO/static/js/453.7bc1db95.chunk.js",
     "static/media/Holly2.png": "/Holly.CO/static/media/Holly2.348f3860bd44449855c9.png",
     "static/media/Holly.png": "/Holly.CO/static/media/Holly.9c385846d497ef6d78c6.png",
     "static/media/logo.png": "/Holly.CO/static/media/logo.aeceb2835e517a9a3460.png",
     "index.html": "/Holly.CO/index.html",
     "main.5c67b99e.css.map": "/Holly.CO/static/css/main.5c67b99e.css.map",
-    "main.1fbc9f55.js.map": "/Holly.CO/static/js/main.1fbc9f55.js.map",
+    "main.acf9db39.js.map": "/Holly.CO/static/js/main.acf9db39.js.map",
     "453.7bc1db95.chunk.js.map": "/Holly.CO/static/js/453.7bc1db95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c67b99e.css",
-    "static/js/main.1fbc9f55.js"
+    "static/js/main.acf9db39.js"
   ]
 }

@@ -1,15 +1,15 @@
-/* Footer.css */
-footer {
+.footer {
+  position: relative; 
+  z-index: 2; 
   background-color: #AE887B;
   color: #fff;
-font-weight: bolder;
-font-size: 20px;
-  padding: 1px;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 1px 0;
   text-align: center;
-  margin-top: -67px;
 }
 
 .footer.contact {
-  background-color: #5E5946; /* Change background color to black when contact page is active */
-  color: white; /* Change text color to white when contact page is active */
+  background-color: #5E5946; 
+  color: white; 
 }

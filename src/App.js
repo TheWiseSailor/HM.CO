@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import HomeRender from './Components/HomeRender';
 import Contact from '../src/Components/Contact/Contact'; 
+import Portfolio from '../src/Components/Portfolio/Portfolio'; 
 
 const App = () => {
   return (

@@ -12,6 +12,7 @@ function Contact() {
 
   return (
     <div className="contact-container-form-page">
+      
       <div className="contact-form-container-page" data-aos="fade-down"
               data-aos-duration="3000">
         <h2 className="ContactHomePageHeader-container-page">Contact</h2>
